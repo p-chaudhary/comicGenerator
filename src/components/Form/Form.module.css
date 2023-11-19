@@ -1,0 +1,42 @@
+.container {
+    width: 50%;
+    height: 400px; /* Change the height to your desired value */
+    border-radius: 10px;
+    border: 0.3px solid rgba(255, 255, 255, 0.80);
+    background: #CCCCCC; /* Change this to your desired container background color */
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 0; /* Align the container to the left */
+    margin-right: auto; /* Remove right margin for left alignment */
+}
+
+.container h2 {
+    color: #af00ff;
+    opacity: 0.8;
+    align-self: flex-start;
+    margin-bottom: 16px;
+}
+
+.close {
+    margin: 12px;
+    right: 20px;
+    width: 28px;
+    height: 28px;
+}
+
+.close:hover {
+    transform: scale(1.2);
+}
+
+.loader {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.7);
+    margin-left: 0; 
+    margin-right: auto; 
+}
